@@ -1,0 +1,14 @@
+
+= link script
+
+[source,cmd]
+----
+@echo off
+
+start yarn config set registry https://nexus.local.c332030.com/repository/npm-registry-public/ -g
+pause >nul
+
+start yarn config set sass_binary_site https://nexus.local.c332030.com/repository/npm-public/node-sass -g
+pause >nul
+
+----

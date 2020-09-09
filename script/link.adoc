@@ -1,0 +1,16 @@
+
+= link script
+
+[source,cmd]
+----
+@echo off
+
+call data\link-file.cmd
+
+set target="%userprofile%\AppData\Local\Yarn"
+set source="%~dp0data"
+call data\link-dir-prompt.cmd
+
+pause >nul
+
+----

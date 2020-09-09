@@ -1,0 +1,15 @@
+
+= yarn config
+
+.yarnrc
+[source,text]
+----
+
+registry "https://nexus.local.c332030.com/repository/npm-registry-public/"
+sass_binary_site "https://nexus.local.c332030.com/repository/npm-public/node-sass"
+
+prefix "D:\\program\\dev\\platform\\node\\yarn\\data"
+cache-folder "D:\\program\\dev\\platform\\node\\yarn\\data\\Cache"
+global-folder "D:\\program\\dev\\platform\\node\\yarn\\data\\Data\\global"
+
+----
